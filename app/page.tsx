@@ -22,7 +22,7 @@ export default function Home() {
             href="/elumina"
             className="rounded-2xl border border-neutral-200 bg-white px-6 py-8 hover:border-brand-amber/50 hover:shadow-sm transition-shadow"
           >
-            <div className="font-syne text-xl font-extrabold">Les Entreprises Elumina Electrique</div>
+            <div className="font-syne text-xl font-extrabold text-blue-700">Elumina Electrique</div>
             <div className="text-neutral-500 mt-2">Voir la page</div>
           </Link>
         </div>

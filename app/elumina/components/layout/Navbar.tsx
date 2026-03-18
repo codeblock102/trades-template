@@ -24,9 +24,9 @@ export default function Navbar() {
     >
       <div className="container-main flex items-center justify-between">
         <Link href="/" className="flex items-center gap-2 group">
-          <Wrench className="w-5 h-5 text-brand-amber" />
+          <Wrench className="w-5 h-5 text-blue-600" />
           <span className="font-syne text-2xl font-extrabold text-brand-dark">
-            Les Entreprises Elumina <span className="text-brand-amber">Electrique</span>
+            Elumina <span className="text-blue-600">Electrique</span>
           </span>
         </Link>
 
@@ -39,7 +39,7 @@ export default function Navbar() {
               className="font-manrope text-sm font-medium text-neutral-600 hover:text-neutral-900 transition-colors relative group"
             >
               {link.label}
-              <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-brand-amber transition-all group-hover:w-full" />
+              <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-blue-600 transition-all group-hover:w-full" />
             </Link>
           ))}
           <Button href="#contact" variant="primary" showArrow>
@@ -79,9 +79,9 @@ export default function Navbar() {
               <div className="p-6">
                 <div className="flex items-center justify-between mb-8">
                   <Link href="/" className="flex items-center gap-2" onClick={() => setMobileOpen(false)}>
-                    <Wrench className="w-5 h-5 text-brand-amber" />
+                    <Wrench className="w-5 h-5 text-blue-600" />
                     <span className="font-syne text-xl font-extrabold text-brand-dark">
-                      Les Entreprises Elumina <span className="text-brand-amber">Electrique</span>
+                      Elumina <span className="text-blue-600">Electrique</span>
                     </span>
                   </Link>
                   <button onClick={() => setMobileOpen(false)} aria-label="Fermer le menu">

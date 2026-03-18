@@ -52,12 +52,17 @@ export default function HeroSection() {
               custom={2}
               className="font-manrope text-base sm:text-lg text-neutral-500 max-w-[480px] mb-6 leading-relaxed"
             >
-              Des fuites aux installations complètes, Les Entreprises Elumina Electrique se présente à l’heure et laisse votre
+              Des fuites aux installations complètes, Elumina Electrique se présente à l’heure et laisse votre
               résidence impeccable. Au service des propriétaires et des entreprises partout aux États-Unis.
             </motion.p>
 
             <motion.div variants={fadeUp} custom={3} className="flex flex-wrap gap-4 mb-6">
-              <Button href="#contact" variant="amber" showArrow>
+              <Button
+                href="#contact"
+                variant="amber"
+                showArrow
+                className="bg-blue-600 text-white hover:bg-blue-700 hover:text-white shadow-lg hover:shadow-lg"
+              >
                 Obtenir un devis gratuit
               </Button>
               <Button href="#services" variant="secondary">
@@ -72,7 +77,7 @@ export default function HeroSection() {
               className="flex flex-wrap items-center gap-6 sm:gap-8 mt-6 sm:mt-8"
             >
               <div className="flex items-center gap-3">
-                <Headphones className="w-5 h-5 text-brand-amber" />
+                <Headphones className="w-5 h-5 text-blue-600" />
                 <div>
                   <p className="text-xs text-neutral-400">Appel d’urgence</p>
                   <p className="font-semibold text-base sm:text-lg text-brand-dark">866-399-2885</p>
@@ -80,7 +85,7 @@ export default function HeroSection() {
               </div>
               <div className="w-px h-10 bg-brand-border hidden sm:block" />
               <div className="flex items-center gap-3">
-                <Clock className="w-5 h-5 text-brand-amber" />
+                <Clock className="w-5 h-5 text-blue-600" />
                 <div>
                   <p className="text-xs text-neutral-400">Heures d’ouverture</p>
                   <p className="font-semibold text-base sm:text-lg text-brand-dark">9 h – 20 h, tous les jours</p>
@@ -120,7 +125,7 @@ export default function HeroSection() {
                 <select
                   value={formData.service}
                   onChange={(e) => setFormData({ ...formData, service: e.target.value })}
-                  className="w-full px-4 py-3 rounded-xl border border-brand-border bg-white font-manrope text-sm focus:outline-none focus:ring-2 focus:ring-brand-amber/40 focus:border-brand-amber"
+                  className="w-full px-4 py-3 rounded-xl border border-brand-border bg-white font-manrope text-sm focus:outline-none focus:ring-2 focus:ring-blue-600/40 focus:border-blue-600"
                   required
                 >
                   <option value="">Choisir un service</option>
@@ -136,7 +141,7 @@ export default function HeroSection() {
                     placeholder="Votre nom"
                     value={formData.name}
                     onChange={(e) => setFormData({ ...formData, name: e.target.value })}
-                    className="w-full px-4 py-3 rounded-xl border border-brand-border bg-white font-manrope text-sm focus:outline-none focus:ring-2 focus:ring-brand-amber/40 focus:border-brand-amber"
+                    className="w-full px-4 py-3 rounded-xl border border-brand-border bg-white font-manrope text-sm focus:outline-none focus:ring-2 focus:ring-blue-600/40 focus:border-blue-600"
                     required
                   />
                   <input
@@ -144,13 +149,13 @@ export default function HeroSection() {
                     placeholder="Numéro de téléphone"
                     value={formData.phone}
                     onChange={(e) => setFormData({ ...formData, phone: e.target.value })}
-                    className="w-full px-4 py-3 rounded-xl border border-brand-border bg-white font-manrope text-sm focus:outline-none focus:ring-2 focus:ring-brand-amber/40 focus:border-brand-amber"
+                    className="w-full px-4 py-3 rounded-xl border border-brand-border bg-white font-manrope text-sm focus:outline-none focus:ring-2 focus:ring-blue-600/40 focus:border-blue-600"
                     required
                   />
                 </div>
                 <button
                   type="submit"
-                  className="w-full bg-brand-amber text-brand-dark font-semibold py-3 rounded-xl hover:bg-brand-amberDark transition-colors"
+                  className="w-full bg-blue-600 text-white font-semibold py-3 rounded-xl hover:bg-blue-700 transition-colors"
                 >
                   Envoyer la demande
                 </button>
@@ -176,8 +181,8 @@ export default function HeroSection() {
               />
               {/* Floating Badge */}
               <div className="absolute bottom-6 left-6 bg-white rounded-xl p-4 shadow-card flex items-center gap-3">
-                <div className="w-10 h-10 bg-brand-amber/10 rounded-lg flex items-center justify-center">
-                  <Check className="w-5 h-5 text-brand-amber" />
+                <div className="w-10 h-10 bg-blue-600/10 rounded-lg flex items-center justify-center">
+                  <Check className="w-5 h-5 text-blue-600" />
                 </div>
                 <div>
                   <p className="font-semibold text-sm text-brand-dark">12,000+</p>
@@ -186,7 +191,7 @@ export default function HeroSection() {
               </div>
             </div>
             {/* Decorative Blob */}
-            <div className="absolute -z-10 w-72 h-72 rounded-full bg-brand-amber/15 blur-3xl -right-20 -top-20" />
+            <div className="absolute -z-10 w-72 h-72 rounded-full bg-blue-600/15 blur-3xl -right-20 -top-20" />
           </motion.div>
         </div>
       </div>

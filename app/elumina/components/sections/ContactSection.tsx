@@ -46,25 +46,25 @@ export default function ContactSection() {
 
             <motion.div variants={fadeUp} custom={2} className="space-y-6 mb-8">
               <div className="flex items-start gap-4">
-                <Phone className="w-5 h-5 text-brand-amber mt-1 flex-shrink-0" />
+                <Phone className="w-5 h-5 text-blue-600 mt-1 flex-shrink-0" />
                 <div>
                   <h3 className="font-semibold text-brand-dark mb-1">Téléphone</h3>
-                  <a href="tel:8663992885" className="text-neutral-600 hover:text-brand-amber transition-colors">
+                  <a href="tel:8663992885" className="text-neutral-600 hover:text-blue-600 transition-colors">
                     866-399-2885
                   </a>
                 </div>
               </div>
               <div className="flex items-start gap-4">
-                <Mail className="w-5 h-5 text-brand-amber mt-1 flex-shrink-0" />
+                <Mail className="w-5 h-5 text-blue-600 mt-1 flex-shrink-0" />
                 <div>
                   <h3 className="font-semibold text-brand-dark mb-1">Courriel</h3>
-                  <a href="mailto:contact@eluminaelectrique.ca" className="text-neutral-600 hover:text-brand-amber transition-colors">
+                  <a href="mailto:contact@eluminaelectrique.ca" className="text-neutral-600 hover:text-blue-600 transition-colors">
                     contact@eluminaelectrique.ca
                   </a>
                 </div>
               </div>
               <div className="flex items-start gap-4">
-                <MapPin className="w-5 h-5 text-brand-amber mt-1 flex-shrink-0" />
+                <MapPin className="w-5 h-5 text-blue-600 mt-1 flex-shrink-0" />
                 <div>
                   <h3 className="font-semibold text-brand-dark mb-1">Adresse</h3>
                   <p className="text-neutral-600">
@@ -76,13 +76,13 @@ export default function ContactSection() {
             </motion.div>
 
             <motion.div variants={fadeUp} custom={3} className="flex gap-4">
-              <a href="#" aria-label="Facebook" className="text-neutral-600 hover:text-brand-amber transition-colors">
+            <a href="#" aria-label="Facebook" className="text-neutral-600 hover:text-blue-600 transition-colors">
                 <Facebook size={20} />
               </a>
-              <a href="#" aria-label="Twitter" className="text-neutral-600 hover:text-brand-amber transition-colors">
+            <a href="#" aria-label="Twitter" className="text-neutral-600 hover:text-blue-600 transition-colors">
                 <Twitter size={20} />
               </a>
-              <a href="#" aria-label="LinkedIn" className="text-neutral-600 hover:text-brand-amber transition-colors">
+            <a href="#" aria-label="LinkedIn" className="text-neutral-600 hover:text-blue-600 transition-colors">
                 <Linkedin size={20} />
               </a>
             </motion.div>
@@ -106,7 +106,7 @@ export default function ContactSection() {
                       id="firstName"
                       value={formData.firstName}
                       onChange={(e) => setFormData({ ...formData, firstName: e.target.value })}
-                      className="w-full px-4 py-3 rounded-xl border border-brand-border bg-white font-manrope text-sm text-brand-dark placeholder:text-neutral-400 focus:outline-none focus:ring-2 focus:ring-brand-amber/40 focus:border-brand-amber transition-all"
+                      className="w-full px-4 py-3 rounded-xl border border-brand-border bg-white font-manrope text-sm text-brand-dark placeholder:text-neutral-400 focus:outline-none focus:ring-2 focus:ring-blue-600/40 focus:border-blue-600 transition-all"
                       required
                     />
                   </div>
@@ -119,7 +119,7 @@ export default function ContactSection() {
                       id="lastName"
                       value={formData.lastName}
                       onChange={(e) => setFormData({ ...formData, lastName: e.target.value })}
-                      className="w-full px-4 py-3 rounded-xl border border-brand-border bg-white font-manrope text-sm text-brand-dark placeholder:text-neutral-400 focus:outline-none focus:ring-2 focus:ring-brand-amber/40 focus:border-brand-amber transition-all"
+                      className="w-full px-4 py-3 rounded-xl border border-brand-border bg-white font-manrope text-sm text-brand-dark placeholder:text-neutral-400 focus:outline-none focus:ring-2 focus:ring-blue-600/40 focus:border-blue-600 transition-all"
                       required
                     />
                   </div>
@@ -134,7 +134,7 @@ export default function ContactSection() {
                       id="email"
                       value={formData.email}
                       onChange={(e) => setFormData({ ...formData, email: e.target.value })}
-                      className="w-full px-4 py-3 rounded-xl border border-brand-border bg-white font-manrope text-sm text-brand-dark placeholder:text-neutral-400 focus:outline-none focus:ring-2 focus:ring-brand-amber/40 focus:border-brand-amber transition-all"
+                      className="w-full px-4 py-3 rounded-xl border border-brand-border bg-white font-manrope text-sm text-brand-dark placeholder:text-neutral-400 focus:outline-none focus:ring-2 focus:ring-blue-600/40 focus:border-blue-600 transition-all"
                       required
                     />
                   </div>
@@ -147,7 +147,7 @@ export default function ContactSection() {
                       id="phone"
                       value={formData.phone}
                       onChange={(e) => setFormData({ ...formData, phone: e.target.value })}
-                      className="w-full px-4 py-3 rounded-xl border border-brand-border bg-white font-manrope text-sm text-brand-dark placeholder:text-neutral-400 focus:outline-none focus:ring-2 focus:ring-brand-amber/40 focus:border-brand-amber transition-all"
+                      className="w-full px-4 py-3 rounded-xl border border-brand-border bg-white font-manrope text-sm text-brand-dark placeholder:text-neutral-400 focus:outline-none focus:ring-2 focus:ring-blue-600/40 focus:border-blue-600 transition-all"
                       required
                     />
                   </div>
@@ -160,7 +160,7 @@ export default function ContactSection() {
                     id="service"
                     value={formData.service}
                     onChange={(e) => setFormData({ ...formData, service: e.target.value })}
-                    className="w-full px-4 py-3 rounded-xl border border-brand-border bg-white font-manrope text-sm text-brand-dark focus:outline-none focus:ring-2 focus:ring-brand-amber/40 focus:border-brand-amber transition-all"
+                    className="w-full px-4 py-3 rounded-xl border border-brand-border bg-white font-manrope text-sm text-brand-dark focus:outline-none focus:ring-2 focus:ring-blue-600/40 focus:border-blue-600 transition-all"
                   >
                     <option value="">Choisir un service</option>
                     {SERVICES.map((service) => (
@@ -179,13 +179,13 @@ export default function ContactSection() {
                     value={formData.message}
                     onChange={(e) => setFormData({ ...formData, message: e.target.value })}
                     rows={5}
-                    className="w-full px-4 py-3 rounded-xl border border-brand-border bg-white font-manrope text-sm text-brand-dark placeholder:text-neutral-400 focus:outline-none focus:ring-2 focus:ring-brand-amber/40 focus:border-brand-amber transition-all resize-none"
+                    className="w-full px-4 py-3 rounded-xl border border-brand-border bg-white font-manrope text-sm text-brand-dark placeholder:text-neutral-400 focus:outline-none focus:ring-2 focus:ring-blue-600/40 focus:border-blue-600 transition-all resize-none"
                     placeholder="Dites-nous de quoi vous avez besoin en plomberie..."
                   />
                 </div>
                 <button
                   type="submit"
-                  className="w-full bg-brand-amber text-brand-dark font-semibold py-3 rounded-xl hover:bg-brand-amberDark transition-colors"
+                  className="w-full bg-blue-600 text-white font-semibold py-3 rounded-xl hover:bg-blue-700 transition-colors"
                 >
                   Envoyer le message →
                 </button>
