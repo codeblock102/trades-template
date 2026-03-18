@@ -26,7 +26,7 @@ export default function Navbar() {
         <Link href="/" className="flex items-center gap-2 group">
           <Wrench className="w-5 h-5 text-brand-amber" />
           <span className="font-syne text-2xl font-extrabold text-brand-dark">
-            AMK <span className="text-brand-amber">Electrique</span>
+            BRIA <span className="text-brand-amber">Electrique Inc</span>
           </span>
         </Link>
 
@@ -43,7 +43,7 @@ export default function Navbar() {
             </Link>
           ))}
           <Button href="#contact" variant="primary" showArrow>
-            Get Quote
+            Obtenir un devis
           </Button>
         </div>
 
@@ -51,7 +51,7 @@ export default function Navbar() {
         <button
           className="md:hidden p-2"
           onClick={() => setMobileOpen(!mobileOpen)}
-          aria-label="Toggle menu"
+          aria-label="Ouvrir le menu"
           aria-expanded={mobileOpen}
         >
           {mobileOpen ? <X size={24} /> : <Menu size={24} />}
@@ -81,10 +81,10 @@ export default function Navbar() {
                   <Link href="/" className="flex items-center gap-2" onClick={() => setMobileOpen(false)}>
                     <Wrench className="w-5 h-5 text-brand-amber" />
                     <span className="font-syne text-xl font-extrabold text-brand-dark">
-                      AMK <span className="text-brand-amber">Electrique</span>
+                      BRIA <span className="text-brand-amber">Electrique Inc</span>
                     </span>
                   </Link>
-                  <button onClick={() => setMobileOpen(false)} aria-label="Close menu">
+                  <button onClick={() => setMobileOpen(false)} aria-label="Fermer le menu">
                     <X size={24} />
                   </button>
                 </div>
@@ -100,7 +100,7 @@ export default function Navbar() {
                     </Link>
                   ))}
                   <Button href="#contact" variant="primary" showArrow onClick={() => setMobileOpen(false)}>
-                    Get Quote
+                    Obtenir un devis
                   </Button>
                 </div>
               </div>

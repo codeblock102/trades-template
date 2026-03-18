@@ -22,10 +22,10 @@ export default function FeaturesSection() {
           className="text-center mb-16"
         >
           <motion.div variants={fadeUp} custom={0}>
-            <SectionLabel>(WHY CHOOSE US)</SectionLabel>
+            <SectionLabel>(POURQUOI NOUS CHOISIR)</SectionLabel>
           </motion.div>
           <motion.h2 variants={fadeUp} custom={1} className="section-heading mb-4">
-            Plumbing service that earns your trust
+            Un service de plomberie qui mérite votre confiance
           </motion.h2>
         </motion.div>
 

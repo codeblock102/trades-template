@@ -18,19 +18,19 @@ export default function Footer() {
             <Link href="/" className="flex items-center gap-2 mb-4">
               <Wrench className="w-5 h-5 text-brand-amber" />
               <span className="font-syne text-xl font-extrabold">
-                AMK <span className="text-brand-amber">Electrique</span>
+                BRIA <span className="text-brand-amber">Electrique Inc</span>
               </span>
             </Link>
             <p className="text-neutral-400 text-sm mb-4 max-w-xs leading-relaxed">
-              Professional plumbing services you can trust. Licensed, insured, and ready to help 24/7.
+              Des services de plomberie professionnels en qui vous pouvez avoir confiance. Des techniciens agréés et assurés, prêts à vous aider 24/7.
             </p>
             <div className="space-y-2 text-sm">
               <p>866-399-2885</p>
-                <p>help@amkelectrique.service</p>
+                <p>help@briaelectrique.ca</p>
             </div>
             <div className="mt-4">
               <Button href="#contact" variant="amber" className="text-sm">
-                Get Free Quote
+                Obtenir un devis gratuit
               </Button>
             </div>
           </div>
@@ -46,7 +46,7 @@ export default function Footer() {
               </li>
               <li>
                 <Link href="#testimonials" className="text-neutral-400 hover:text-white transition-colors text-sm">
-                  Testimonials
+                  Témoignages
                 </Link>
               </li>
               <li>
@@ -56,7 +56,7 @@ export default function Footer() {
               </li>
               <li>
                 <Link href="#about" className="text-neutral-400 hover:text-white transition-colors text-sm">
-                  About
+                  À propos
                 </Link>
               </li>
             </ul>
@@ -64,7 +64,7 @@ export default function Footer() {
 
           {/* Social & Address Column */}
           <div>
-            <h4 className="font-syne text-xs uppercase tracking-widest mb-4">Social</h4>
+            <h4 className="font-syne text-xs uppercase tracking-widest mb-4">Réseaux sociaux</h4>
             <div className="flex gap-4 mb-6">
               <a href="#" aria-label="Facebook" className="text-neutral-400 hover:text-brand-amber transition-colors">
                 <Facebook size={20} />
@@ -76,7 +76,7 @@ export default function Footer() {
                 <Linkedin size={20} />
               </a>
             </div>
-            <h4 className="font-syne text-xs uppercase tracking-widest mb-4 mt-6">Address</h4>
+            <h4 className="font-syne text-xs uppercase tracking-widest mb-4 mt-6">Adresse</h4>
             <p className="text-neutral-400 text-sm">
               70 Washington Square South<br />
               New York, NY 10012
@@ -85,7 +85,7 @@ export default function Footer() {
 
           {/* Newsletter Column */}
           <div>
-            <h4 className="font-syne text-xs uppercase tracking-widest mb-4">Stay Updated</h4>
+            <h4 className="font-syne text-xs uppercase tracking-widest mb-4">Restez informé</h4>
             <form
               onSubmit={(e) => {
                 e.preventDefault()
@@ -95,7 +95,7 @@ export default function Footer() {
             >
               <input
                 type="email"
-                placeholder="Email address"
+                placeholder="Adresse courriel"
                 className="w-full px-4 py-3 rounded-xl bg-neutral-800 border border-neutral-700 text-white placeholder:text-neutral-400 focus:outline-none focus:ring-2 focus:ring-brand-amber/40 focus:border-brand-amber transition-all"
                 required
               />
@@ -103,7 +103,7 @@ export default function Footer() {
                 type="submit"
                 className="w-full bg-brand-amber text-brand-dark font-semibold py-3 rounded-xl hover:bg-brand-amberDark transition-colors"
               >
-                Subscribe →
+                S’abonner →
               </button>
             </form>
           </div>
@@ -112,13 +112,13 @@ export default function Footer() {
         {/* Bottom Bar */}
         <div className="border-t border-neutral-800 pt-8 flex flex-col md:flex-row justify-between items-center gap-4">
           <p className="text-neutral-400 text-sm">
-            Designed with care by AMK Electrique © 2025
+            Conçu avec soin par BRIA Electrique Inc © 2025
           </p>
           <button
             onClick={scrollToTop}
             className="text-brand-amber hover:text-brand-amberDark transition-colors text-sm font-semibold flex items-center gap-1"
           >
-            Back to Top <ArrowUp size={16} />
+            Retour en haut <ArrowUp size={16} />
           </button>
         </div>
       </div>

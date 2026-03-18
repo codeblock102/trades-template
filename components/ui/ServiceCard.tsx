@@ -35,7 +35,7 @@ export default function ServiceCard({ title, description, image, href }: Service
           href={href}
           className="text-brand-amber font-semibold text-sm hover:underline inline-flex items-center gap-1"
         >
-          Read More <span>→</span>
+          En savoir plus <span>→</span>
         </Link>
       </div>
     </motion.div>

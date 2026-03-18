@@ -25,7 +25,7 @@ export default function AboutSection() {
             <div className="relative aspect-[4/5] rounded-2xl overflow-hidden">
               <Image
                 src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=600&h=750&fit=crop"
-                alt="Professional plumbing team"
+                alt="Équipe de plomberie professionnelle"
                 fill
                 className="object-cover"
                 sizes="(max-width: 1024px) 100vw, 50vw"
@@ -38,7 +38,7 @@ export default function AboutSection() {
               <span className="text-2xl">⭐</span>
               <div>
                 <p className="font-semibold text-sm text-brand-dark">4.9/5</p>
-                <p className="text-xs text-neutral-500">Average Rating</p>
+                <p className="text-xs text-neutral-500">Note moyenne</p>
               </div>
             </div>
           </motion.div>
@@ -51,23 +51,23 @@ export default function AboutSection() {
             animate={isInView ? 'visible' : 'hidden'}
           >
             <motion.div variants={fadeUp} custom={0}>
-              <SectionLabel>(WHO WE ARE)</SectionLabel>
+              <SectionLabel>(QUI SOMMES-NOUS)</SectionLabel>
             </motion.div>
             <motion.h2 variants={fadeUp} custom={1} className="section-heading mb-6">
-              Licensed pros. Honest pricing. Zero surprises.
+              Des pros agréés. Des prix honnêtes. Zéro surprise.
             </motion.h2>
             <motion.p variants={fadeUp} custom={2} className="section-subtext mb-8">
-              With over 15 years of experience, we've built a reputation for excellence in plumbing services. Our team
-              of licensed professionals is committed to providing top-quality workmanship and exceptional customer
-              service.
+              Avec plus de 15 ans d’expérience, nous avons bâti une réputation d’excellence en services de
+              plomberie. Notre équipe de professionnels agréés s’engage à offrir un travail de qualité supérieure
+              et un service à la clientèle exceptionnel.
             </motion.p>
 
             <motion.ul variants={fadeUp} custom={3} className="space-y-4 mb-8">
               {[
-                'Background-checked technicians',
-                'Fully licensed in all 50 states',
-                'Itemized quotes — no mystery charges',
-                '12-month workmanship guarantee',
+                'Techniciens dont les antécédents ont été vérifiés',
+                'Entièrement agréés dans les 50 États',
+                'Devis détaillés — sans frais cachés',
+                'Garantie de travail de 12 mois',
               ].map((item, i) => (
                 <li key={i} className="flex items-center gap-3">
                   <Check className="w-5 h-5 text-brand-amber flex-shrink-0" />
@@ -78,7 +78,7 @@ export default function AboutSection() {
 
             <motion.div variants={fadeUp} custom={4}>
               <Button href="#contact" variant="primary" showArrow>
-                Meet Our Team
+                Rencontrez notre équipe
               </Button>
             </motion.div>
           </motion.div>

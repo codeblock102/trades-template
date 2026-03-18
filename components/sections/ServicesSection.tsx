@@ -21,10 +21,10 @@ export default function ServicesSection() {
           className="text-center mb-16"
         >
           <motion.div variants={fadeUp} custom={0}>
-            <SectionLabel>(WHAT WE DO)</SectionLabel>
+            <SectionLabel>(CE QUE NOUS FAISONS)</SectionLabel>
           </motion.div>
           <motion.h2 variants={fadeUp} custom={1} className="section-heading mb-4">
-            Every plumbing need, covered
+            Tous vos besoins en plomberie, couverts
           </motion.h2>
         </motion.div>
 

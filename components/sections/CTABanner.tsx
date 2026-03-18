@@ -26,21 +26,21 @@ export default function CTABanner() {
             custom={0}
             className="font-syne text-4xl md:text-5xl font-extrabold text-white mb-4"
           >
-            Ready for stress-free plumbing?
+            Prêt pour une plomberie sans stress ?
           </motion.h2>
           <motion.p
             variants={fadeUp}
             custom={1}
             className="font-manrope text-lg text-neutral-400 mb-8 max-w-2xl mx-auto"
           >
-            Join 12,000+ customers who trust AMK Electrique for every job.
+            Rejoignez 12 000+ clients qui font confiance à BRIA Electrique Inc pour chaque intervention.
           </motion.p>
           <motion.div variants={fadeUp} custom={2} className="flex flex-wrap gap-4 justify-center">
             <Button href="#contact" variant="amber" showArrow>
-              Get a Free Quote
+              Obtenir un devis gratuit
             </Button>
             <Button href="tel:8663992885" variant="secondary" className="border-white text-white hover:bg-white hover:text-brand-dark">
-              Call Now: 866-399-2885
+              Appelez maintenant : 866-399-2885
             </Button>
           </motion.div>
         </motion.div>

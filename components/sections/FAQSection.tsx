@@ -21,10 +21,10 @@ export default function FAQSection() {
           className="text-center mb-16"
         >
           <motion.div variants={fadeUp} custom={0}>
-            <SectionLabel>(FAQ)</SectionLabel>
+            <SectionLabel>(FOIRE AUX QUESTIONS)</SectionLabel>
           </motion.div>
           <motion.h2 variants={fadeUp} custom={1} className="section-heading mb-4">
-            Have questions? We have answers.
+            Des questions ? Nous avons les réponses.
           </motion.h2>
         </motion.div>
 

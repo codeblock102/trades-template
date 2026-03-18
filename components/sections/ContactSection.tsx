@@ -38,17 +38,17 @@ export default function ContactSection() {
             animate={isInView ? 'visible' : 'hidden'}
           >
             <motion.div variants={fadeUp} custom={0}>
-              <SectionLabel>(GET IN TOUCH)</SectionLabel>
+              <SectionLabel>(ENTRER EN CONTACT)</SectionLabel>
             </motion.div>
             <motion.h2 variants={fadeUp} custom={1} className="section-heading mb-8">
-              Let's solve your plumbing problem today.
+              Résolvons votre problème de plomberie aujourd’hui.
             </motion.h2>
 
             <motion.div variants={fadeUp} custom={2} className="space-y-6 mb-8">
               <div className="flex items-start gap-4">
                 <Phone className="w-5 h-5 text-brand-amber mt-1 flex-shrink-0" />
                 <div>
-                  <h3 className="font-semibold text-brand-dark mb-1">Phone</h3>
+                  <h3 className="font-semibold text-brand-dark mb-1">Téléphone</h3>
                   <a href="tel:8663992885" className="text-neutral-600 hover:text-brand-amber transition-colors">
                     866-399-2885
                   </a>
@@ -57,16 +57,16 @@ export default function ContactSection() {
               <div className="flex items-start gap-4">
                 <Mail className="w-5 h-5 text-brand-amber mt-1 flex-shrink-0" />
                 <div>
-                  <h3 className="font-semibold text-brand-dark mb-1">Email</h3>
-                  <a href="mailto:help@amkelectrique.service" className="text-neutral-600 hover:text-brand-amber transition-colors">
-                    help@amkelectrique.service
+                  <h3 className="font-semibold text-brand-dark mb-1">Courriel</h3>
+                  <a href="mailto:help@briaelectrique.ca" className="text-neutral-600 hover:text-brand-amber transition-colors">
+                    help@briaelectrique.ca
                   </a>
                 </div>
               </div>
               <div className="flex items-start gap-4">
                 <MapPin className="w-5 h-5 text-brand-amber mt-1 flex-shrink-0" />
                 <div>
-                  <h3 className="font-semibold text-brand-dark mb-1">Address</h3>
+                  <h3 className="font-semibold text-brand-dark mb-1">Adresse</h3>
                   <p className="text-neutral-600">
                     70 Washington Square South<br />
                     New York, NY 10012
@@ -99,7 +99,7 @@ export default function ContactSection() {
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                   <div>
                     <label htmlFor="firstName" className="block text-sm font-semibold text-brand-dark mb-2">
-                      First Name
+                      Prénom
                     </label>
                     <input
                       type="text"
@@ -112,7 +112,7 @@ export default function ContactSection() {
                   </div>
                   <div>
                     <label htmlFor="lastName" className="block text-sm font-semibold text-brand-dark mb-2">
-                      Last Name
+                      Nom de famille
                     </label>
                     <input
                       type="text"
@@ -127,7 +127,7 @@ export default function ContactSection() {
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                   <div>
                     <label htmlFor="email" className="block text-sm font-semibold text-brand-dark mb-2">
-                      Email Address
+                      Adresse courriel
                     </label>
                     <input
                       type="email"
@@ -140,7 +140,7 @@ export default function ContactSection() {
                   </div>
                   <div>
                     <label htmlFor="phone" className="block text-sm font-semibold text-brand-dark mb-2">
-                      Phone Number
+                      Numéro de téléphone
                     </label>
                     <input
                       type="tel"
@@ -154,7 +154,7 @@ export default function ContactSection() {
                 </div>
                 <div>
                   <label htmlFor="service" className="block text-sm font-semibold text-brand-dark mb-2">
-                    Select Service
+                    Choisir un service
                   </label>
                   <select
                     id="service"
@@ -162,7 +162,7 @@ export default function ContactSection() {
                     onChange={(e) => setFormData({ ...formData, service: e.target.value })}
                     className="w-full px-4 py-3 rounded-xl border border-brand-border bg-white font-manrope text-sm text-brand-dark focus:outline-none focus:ring-2 focus:ring-brand-amber/40 focus:border-brand-amber transition-all"
                   >
-                    <option value="">Select a service</option>
+                    <option value="">Choisir un service</option>
                     {SERVICES.map((service) => (
                       <option key={service.title} value={service.title}>
                         {service.title}
@@ -180,18 +180,18 @@ export default function ContactSection() {
                     onChange={(e) => setFormData({ ...formData, message: e.target.value })}
                     rows={5}
                     className="w-full px-4 py-3 rounded-xl border border-brand-border bg-white font-manrope text-sm text-brand-dark placeholder:text-neutral-400 focus:outline-none focus:ring-2 focus:ring-brand-amber/40 focus:border-brand-amber transition-all resize-none"
-                    placeholder="Tell us about your plumbing needs..."
+                    placeholder="Dites-nous de quoi vous avez besoin en plomberie..."
                   />
                 </div>
                 <button
                   type="submit"
                   className="w-full bg-brand-amber text-brand-dark font-semibold py-3 rounded-xl hover:bg-brand-amberDark transition-colors"
                 >
-                  Send Message →
+                  Envoyer le message →
                 </button>
                 {submitted && (
                   <div className="p-4 bg-green-50 border border-green-200 rounded-xl text-green-800 text-sm">
-                    Thank you! Your message has been sent successfully.
+                    Merci ! Votre message a bien été envoyé.
                   </div>
                 )}
               </form>

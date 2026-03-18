@@ -10,9 +10,9 @@ const config: Config = {
       },
       colors: {
         brand: {
-          // Replaces the original orange brand color with a darker red.
-          amber: '#C1121F',
-          amberDark: '#8A0E18',
+          // Brand accent: yellow.
+          amber: '#FACC15',
+          amberDark: '#EAB308',
           dark: '#0D0D0D',
           gray: '#6B6B6B',
           lightBg: '#F8F7F4',
@@ -29,7 +29,7 @@ const config: Config = {
       boxShadow: {
         card: '0 4px 24px rgba(0,0,0,0.07)',
         'card-hover': '0 12px 40px rgba(0,0,0,0.13)',
-        amber: '0 8px 32px rgba(193,18,31,0.25)',
+        amber: '0 8px 32px rgba(250,204,21,0.25)',
       },
       animation: {
         marquee: 'marquee 28s linear infinite',

@@ -15,8 +15,9 @@ const manrope = Manrope({
 })
 
 export const metadata: Metadata = {
-  title: 'AMK Electrique - Professional Plumbing Services',
-  description: 'Stress-free plumbing, done right. Licensed professionals available 24/7 for all your plumbing needs.',
+  title: 'BRIA Electrique Inc - Services de plomberie professionnels',
+  description:
+    'Une plomberie sans stress, faite comme il faut. Des professionnels agréés disponibles 24 h/24 et 7 j/7 pour tous vos besoins en plomberie.',
 }
 
 export default function RootLayout({
@@ -25,7 +26,7 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en" className={`${syne.variable} ${manrope.variable}`}>
+    <html lang="fr-CA" className={`${syne.variable} ${manrope.variable}`}>
       <body className="font-manrope bg-white text-neutral-900 antialiased">
         {children}
       </body>

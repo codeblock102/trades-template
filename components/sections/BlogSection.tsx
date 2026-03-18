@@ -21,14 +21,14 @@ export default function BlogSection() {
           className="flex flex-col md:flex-row justify-between items-start md:items-center mb-16"
         >
           <motion.h2 variants={fadeUp} custom={0} className="section-heading mb-4 md:mb-0">
-            Latest from Our Blog
+            Les dernières actualités de notre blogue
           </motion.h2>
           <motion.div variants={fadeUp} custom={1}>
             <Link
               href="#blog"
               className="text-brand-amber font-semibold hover:underline inline-flex items-center gap-1"
             >
-              See All Posts <span>→</span>
+              Voir tous les articles <span>→</span>
             </Link>
           </motion.div>
         </motion.div>

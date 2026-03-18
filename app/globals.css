@@ -12,12 +12,12 @@
   }
 
   ::selection {
-    background: #F5A623;
+    background: #FACC15;
     color: #0D0D0D;
   }
 
   :focus-visible {
-    outline: 2px solid #F5A623;
+    outline: 2px solid #FACC15;
     outline-offset: 3px;
   }
 }

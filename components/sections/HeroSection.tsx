@@ -38,30 +38,30 @@ export default function HeroSection() {
             animate={isInView ? 'visible' : 'hidden'}
           >
             <motion.div variants={fadeUp} custom={0}>
-              <SectionLabel>(TRUSTED PLUMBING SERVICE)</SectionLabel>
+              <SectionLabel>(SERVICE DE PLOMBERIE FIABLE)</SectionLabel>
             </motion.div>
             <motion.h1
               variants={fadeUp}
               custom={1}
               className="font-syne text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-extrabold text-brand-dark leading-[1.05] tracking-tight mb-4"
             >
-              Stress-free plumbing, done right.
+              Une plomberie sans stress, faite comme il faut.
             </motion.h1>
             <motion.p
               variants={fadeUp}
               custom={2}
               className="font-manrope text-base sm:text-lg text-neutral-500 max-w-[480px] mb-6 leading-relaxed"
             >
-              From leaks to full installs, AMK Electrique shows up on time and leaves your place spotless. Serving
-              homeowners and businesses across the USA.
+              Des fuites aux installations complètes, BRIA Electrique Inc se présente à l’heure et laisse votre
+              résidence impeccable. Au service des propriétaires et des entreprises partout aux États-Unis.
             </motion.p>
 
             <motion.div variants={fadeUp} custom={3} className="flex flex-wrap gap-4 mb-6">
               <Button href="#contact" variant="amber" showArrow>
-                Get a Free Quote
+                Obtenir un devis gratuit
               </Button>
               <Button href="#services" variant="secondary">
-                See Our Services
+                Voir nos services
               </Button>
             </motion.div>
 
@@ -74,7 +74,7 @@ export default function HeroSection() {
               <div className="flex items-center gap-3">
                 <Headphones className="w-5 h-5 text-brand-amber" />
                 <div>
-                  <p className="text-xs text-neutral-400">Emergency Call</p>
+                  <p className="text-xs text-neutral-400">Appel d’urgence</p>
                   <p className="font-semibold text-base sm:text-lg text-brand-dark">866-399-2885</p>
                 </div>
               </div>
@@ -82,8 +82,8 @@ export default function HeroSection() {
               <div className="flex items-center gap-3">
                 <Clock className="w-5 h-5 text-brand-amber" />
                 <div>
-                  <p className="text-xs text-neutral-400">Working Hours</p>
-                  <p className="font-semibold text-base sm:text-lg text-brand-dark">9am – 8pm Daily</p>
+                  <p className="text-xs text-neutral-400">Heures d’ouverture</p>
+                  <p className="font-semibold text-base sm:text-lg text-brand-dark">9 h – 20 h, tous les jours</p>
                 </div>
               </div>
             </motion.div>
@@ -103,7 +103,7 @@ export default function HeroSection() {
                       : 'text-neutral-500 hover:text-neutral-900'
                   }`}
                 >
-                  Residential
+                  Résidentiel
                 </button>
                 <button
                   onClick={() => setServiceType('commercial')}
@@ -123,7 +123,7 @@ export default function HeroSection() {
                   className="w-full px-4 py-3 rounded-xl border border-brand-border bg-white font-manrope text-sm focus:outline-none focus:ring-2 focus:ring-brand-amber/40 focus:border-brand-amber"
                   required
                 >
-                  <option value="">Select Service</option>
+                  <option value="">Choisir un service</option>
                   {services.map((service) => (
                     <option key={service} value={service}>
                       {service}
@@ -133,7 +133,7 @@ export default function HeroSection() {
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
                   <input
                     type="text"
-                    placeholder="Your Name"
+                    placeholder="Votre nom"
                     value={formData.name}
                     onChange={(e) => setFormData({ ...formData, name: e.target.value })}
                     className="w-full px-4 py-3 rounded-xl border border-brand-border bg-white font-manrope text-sm focus:outline-none focus:ring-2 focus:ring-brand-amber/40 focus:border-brand-amber"
@@ -141,7 +141,7 @@ export default function HeroSection() {
                   />
                   <input
                     type="tel"
-                    placeholder="Phone Number"
+                    placeholder="Numéro de téléphone"
                     value={formData.phone}
                     onChange={(e) => setFormData({ ...formData, phone: e.target.value })}
                     className="w-full px-4 py-3 rounded-xl border border-brand-border bg-white font-manrope text-sm focus:outline-none focus:ring-2 focus:ring-brand-amber/40 focus:border-brand-amber"
@@ -152,7 +152,7 @@ export default function HeroSection() {
                   type="submit"
                   className="w-full bg-brand-amber text-brand-dark font-semibold py-3 rounded-xl hover:bg-brand-amberDark transition-colors"
                 >
-                  Submit Request
+                  Envoyer la demande
                 </button>
               </form>
             </motion.div>
@@ -168,7 +168,7 @@ export default function HeroSection() {
             <div className="relative aspect-[4/5] rounded-2xl overflow-hidden">
               <Image
                 src="https://images.unsplash.com/photo-1621905251918-48416bd8575a?w=600&h=750&fit=crop"
-                alt="Professional plumber"
+                alt="Plombier professionnel"
                 fill
                 className="object-cover animate-float"
                 priority
@@ -181,7 +181,7 @@ export default function HeroSection() {
                 </div>
                 <div>
                   <p className="font-semibold text-sm text-brand-dark">12,000+</p>
-                  <p className="text-xs text-neutral-500">Jobs Completed</p>
+                  <p className="text-xs text-neutral-500">Interventions réalisées</p>
                 </div>
               </div>
             </div>

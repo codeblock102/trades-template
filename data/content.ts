@@ -1,74 +1,74 @@
 export const NAV_LINKS = [
-  { label: 'Home', href: '/' },
-  { label: 'About', href: '#about' },
+  { label: 'Accueil', href: '/' },
+  { label: 'À propos', href: '#about' },
   { label: 'Services', href: '#services' },
-  { label: 'Blog', href: '#blog' },
+  { label: 'Blogue', href: '#blog' },
   { label: 'Contact', href: '#contact' },
 ]
 
 export const FEATURES = [
   {
     icon: 'ShieldCheck',
-    title: 'Licensed & Insured',
-    description: 'Every technician is fully certified, background-checked, and covered. Your home is in expert hands.',
+    title: 'Agrée et assuré',
+    description: 'Chaque technicien est pleinement agréé, vérifié et couvert. Votre maison est entre de bonnes mains.',
   },
   {
     icon: 'Banknote',
-    title: 'Transparent Pricing',
-    description: 'Upfront quotes with zero hidden fees. You approve the price before we lift a wrench.',
+    title: 'Tarification transparente',
+    description: 'Des devis clairs et aucun frais caché. Vous approuvez le prix avant que nous levions une clé.',
   },
   {
     icon: 'Clock',
-    title: 'Same-Day Service',
-    description: 'We respect your time. Book before noon, get service today—with a precise arrival window.',
+    title: 'Service le jour même',
+    description: 'Nous respectons votre temps. Réservez avant midi et bénéficiez du service aujourd\'hui, avec une fenêtre d\'arrivée précise.',
   },
   {
     icon: 'Headphones',
-    title: '24/7 Emergency Line',
-    description: 'Burst pipe at 3am? We answer. Our emergency team is on call around the clock, 365 days.',
+    title: 'Ligne d’urgence 24/7',
+    description: 'Un tuyau éclate à 3 h du matin? On vous répond. Notre équipe d\'urgence est disponible 24 h/24, 365 jours.',
   },
 ]
 
 export const STATS = [
-  { value: 98, suffix: '%', label: 'Customer Satisfaction' },
-  { value: 15, suffix: '+', label: 'Years of Experience' },
-  { value: 50, suffix: '+', label: 'Cities Served' },
+  { value: 98, suffix: '%', label: 'Satisfaction client' },
+  { value: 15, suffix: '+', label: 'Années d’expérience' },
+  { value: 50, suffix: '+', label: 'Villes desservies' },
 ]
 
 export const SERVICES = [
   {
-    title: 'Pipe Installation',
-    description: 'Full residential and commercial pipe runs. New construction or replacement—done right.',
+    title: 'Installation de tuyauterie',
+    description: 'Installation complète de conduites résidentielles et commerciales. Nouvelle construction ou remplacement: fait comme il faut.',
     image: 'https://images.unsplash.com/photo-1621905251918-48416bd8575a?w=400&h=280&fit=crop',
     href: '#',
   },
   {
-    title: 'Leak Detection & Repair',
-    description: 'Non-invasive leak detection using acoustic and thermal tools. We find it fast and fix it clean.',
+    title: 'Détection et réparation de fuites',
+    description: 'Détection de fuites sans intrusion grâce à des outils acoustiques et thermiques. On trouve le problème rapidement et on le répare proprement.',
     image: 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=400&h=280&fit=crop',
     href: '#',
   },
   {
-    title: 'Kitchen & Bath Remodeling',
-    description: 'Full plumbing for bathroom renovations and kitchen upgrades—code-compliant, beautifully executed.',
+    title: 'Rénovation cuisine et salle de bain',
+    description: 'Plomberie complète pour vos rénovations de salle de bain et de cuisine: conforme au code et réalisée avec soin.',
     image: 'https://images.unsplash.com/photo-1556911220-bff31c812dba?w=400&h=280&fit=crop',
     href: '#',
   },
   {
-    title: 'Water Heater Service',
-    description: 'Installation, repair, or replacement of traditional tank and tankless water heaters.',
+    title: 'Service de chauffe-eau',
+    description: 'Installation, réparation ou remplacement des chauffe-eau à réservoir et sans réservoir.',
     image: 'https://images.unsplash.com/photo-1607472586893-edb57bdc0e39?w=400&h=280&fit=crop',
     href: '#',
   },
   {
-    title: 'Drain Cleaning',
-    description: 'Hydro-jetting and snaking for clogs and buildup. We clear the line, not just the symptom.',
+    title: 'Nettoyage des drains',
+    description: 'Hydrojettage et débouchage pour les obstructions et l\'accumulation. On dégage la conduite, pas seulement le symptôme.',
     image: 'https://images.unsplash.com/photo-1581578731548-c64695cc6952?w=400&h=280&fit=crop',
     href: '#',
   },
   {
-    title: 'Emergency Plumbing',
-    description: 'When it can\'t wait, we show up. Rapid-response team available nights, weekends, holidays.',
+    title: 'Plomberie d’urgence',
+    description: 'Quand ça ne peut pas attendre, on se présente. Une équipe d\'intervention rapide est disponible le soir, les fins de semaine et les jours fériés.',
     image: 'https://images.unsplash.com/photo-1607472586893-edb57bdc0e39?w=400&h=280&fit=crop',
     href: '#',
   },
@@ -76,53 +76,55 @@ export const SERVICES = [
 
 export const FAQS = [
   {
-    question: 'Do you offer same-day appointments?',
-    answer: 'Yes. For non-emergency jobs, bookings made before noon typically receive same-day service. Emergency calls are responded to within 2 hours, around the clock.',
+    question: 'Offrez-vous des rendez-vous le jour même ?',
+    answer:
+      'Oui. Pour les interventions non urgentes, les demandes envoyées avant midi reçoivent généralement un service le jour même. Les appels d\'urgence sont traités en moins de 2 heures, 24 h/24.',
   },
   {
-    question: 'How does your pricing work?',
-    answer: 'We provide a full itemized quote before starting any work. You\'ll know the exact price upfront—no surprise charges when the invoice arrives.',
+    question: 'Comment fonctionne votre tarification?',
+    answer: 'Nous fournissons un devis détaillé avant de commencer. Vous connaissez le prix exact à l\'avance — aucune mauvaise surprise quand la facture arrive.',
   },
   {
-    question: 'Are your plumbers licensed and insured?',
-    answer: 'Absolutely. Every technician holds a current state plumbing license, passes a background check, and is fully covered by our liability insurance.',
+    question: 'Vos plombiers sont-ils agréés et assurés?',
+    answer: 'Bien sûr. Chaque technicien détient une licence de plomberie valide, passe une vérification, et est entièrement couvert par notre assurance responsabilité.',
   },
   {
-    question: 'What areas do you serve?',
-    answer: 'We currently serve over 50 cities across the USA. Enter your zip code on our contact form to confirm same-day availability in your area.',
+    question: 'Dans quels secteurs intervenez-vous?',
+    answer: 'Nous desservons plus de 50 villes au Canada. Entrez votre code postal dans notre formulaire pour confirmer la disponibilité le jour même dans votre secteur.',
   },
   {
-    question: 'Do you offer maintenance contracts for commercial clients?',
-    answer: 'Yes. We offer quarterly and annual maintenance contracts for commercial properties with priority scheduling and discounted rates.',
+    question: 'Offrez-vous des contrats d’entretien pour les clients commerciaux?',
+    answer: 'Oui. Nous offrons des contrats d\'entretien trimestriels et annuels pour les propriétés commerciales, avec planification prioritaire et tarifs réduits.',
   },
   {
-    question: 'What happens if a repair fails after you\'ve completed the work?',
-    answer: 'All our work is guaranteed. If something we repaired fails within 12 months, we return and fix it at no additional charge.',
+    question: 'Que se passe-t-il si une réparation échoue après le travail ?',
+    answer:
+      'Tout notre travail est garanti. Si quelque chose que nous avons réparé échoue dans les 12 mois, nous revenons et réparons sans frais supplémentaires.',
   },
 ]
 
 export const BLOGS = [
   {
-    title: 'DIY Regular Plumbing Maintenance',
-    category: 'Maintenance',
-    date: 'August 15, 2025',
-    readTime: '3 min read',
+    title: 'Entretien régulier de la plomberie (guide DIY)',
+    category: 'Entretien',
+    date: '15 août 2025',
+    readTime: '3 minutes de lecture',
     image: 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=500&h=320&fit=crop',
     href: '#',
   },
   {
-    title: 'How to Fix Slow Drains Safely',
-    category: 'Drainage & Safety',
-    date: 'July 17, 2025',
-    readTime: '4 min read',
+    title: 'Comment déboucher un drain lent en toute sécurité',
+    category: 'Drainage & sécurité',
+    date: '17 juillet 2025',
+    readTime: '4 minutes de lecture',
     image: 'https://images.unsplash.com/photo-1581578731548-c64695cc6952?w=500&h=320&fit=crop',
     href: '#',
   },
   {
-    title: 'Water Heater Reset: Complete Guide',
-    category: 'Water Heating',
-    date: 'June 18, 2025',
-    readTime: '5 min read',
+    title: 'Réinitialisation du chauffe-eau : guide complet',
+    category: 'Chauffage de l’eau',
+    date: '18 juin 2025',
+    readTime: '5 minutes de lecture',
     image: 'https://images.unsplash.com/photo-1607472586893-edb57bdc0e39?w=500&h=320&fit=crop',
     href: '#',
   },
@@ -133,19 +135,19 @@ export const SOCIAL_PROOF_LOGOS = [
 ]
 
 export const RESIDENTIAL_SERVICES = [
-  'Emergency Repair',
-  'Drain Cleaning',
-  'Water Heater',
-  'Pipe Installation',
-  'Leak Detection',
-  'Fixture Installation',
+  'Réparation d’urgence',
+  'Nettoyage des drains',
+  'Chauffe-eau',
+  'Installation de tuyaux',
+  'Détection de fuites',
+  'Installation d’appareils',
 ]
 
 export const COMMERCIAL_SERVICES = [
-  'Commercial Plumbing',
-  'Backflow Prevention',
-  'Sewer Line Repair',
-  'Water Main Installation',
-  'Grease Trap Service',
-  'Preventive Maintenance',
+  'Plomberie commerciale',
+  'Prévention des refoulements',
+  'Réparation de conduites d’égout',
+  'Installation de conduite principale',
+  'Entretien du piège à graisse',
+  'Entretien préventif',
 ]

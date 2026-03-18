@@ -19,7 +19,7 @@ export default function SocialProofSection() {
           className="text-center"
         >
           <p className="font-syne text-sm uppercase tracking-widest text-neutral-400 mb-6">
-            Trusted by thousands of customers across the USA
+              Approuvé par des milliers de clients partout aux États-Unis
           </p>
           <div className="flex flex-wrap gap-4 justify-center">
             {SOCIAL_PROOF_LOGOS.map((logo, i) => (
