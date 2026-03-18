@@ -4,7 +4,7 @@ import { motion, useInView } from 'framer-motion'
 import SectionLabel from '@/components/ui/SectionLabel'
 import FAQAccordion from '../ui/FAQAccordion'
 import { staggerContainer, fadeUp } from '@/lib/animations'
-import { FAQS } from '@/data/content'
+import { FAQS } from '../../data/electric-content'
 
 export default function FAQSection() {
   const ref = useRef(null)

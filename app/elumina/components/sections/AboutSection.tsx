@@ -25,7 +25,7 @@ export default function AboutSection() {
             <div className="relative aspect-[4/5] rounded-2xl overflow-hidden">
               <Image
                 src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=600&h=750&fit=crop"
-                alt="Équipe de plomberie professionnelle"
+                alt="Équipe d’électricité professionnelle"
                 fill
                 className="object-cover"
                 sizes="(max-width: 1024px) 100vw, 50vw"
@@ -58,7 +58,7 @@ export default function AboutSection() {
             </motion.h2>
             <motion.p variants={fadeUp} custom={2} className="section-subtext mb-8">
               Avec plus de 15 ans d’expérience, nous avons bâti une réputation d’excellence en services de
-              plomberie. Notre équipe de professionnels agréés s’engage à offrir un travail de qualité supérieure
+              services électriques. Notre équipe de professionnels agréés s’engage à offrir un travail de qualité supérieure
               et un service à la clientèle exceptionnel.
             </motion.p>
 

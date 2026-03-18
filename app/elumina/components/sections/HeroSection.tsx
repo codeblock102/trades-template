@@ -6,7 +6,7 @@ import { Headphones, Clock, Check } from 'lucide-react'
 import SectionLabel from '@/components/ui/SectionLabel'
 import Button from '@/components/ui/Button'
 import { fadeUp, staggerContainer } from '@/lib/animations'
-import { RESIDENTIAL_SERVICES, COMMERCIAL_SERVICES } from '@/data/content'
+import { RESIDENTIAL_SERVICES, COMMERCIAL_SERVICES } from '../../data/electric-content'
 
 export default function HeroSection() {
   const [serviceType, setServiceType] = useState<'residential' | 'commercial'>('residential')
@@ -38,22 +38,22 @@ export default function HeroSection() {
             animate={isInView ? 'visible' : 'hidden'}
           >
             <motion.div variants={fadeUp} custom={0}>
-              <SectionLabel>(SERVICE DE PLOMBERIE FIABLE)</SectionLabel>
+              <SectionLabel>(SERVICE ÉLECTRIQUE FIABLE)</SectionLabel>
             </motion.div>
             <motion.h1
               variants={fadeUp}
               custom={1}
               className="font-syne text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-extrabold text-brand-dark leading-[1.05] tracking-tight mb-4"
             >
-              Une plomberie sans stress, faite comme il faut.
+              De l’électricité sans stress, faite comme il faut.
             </motion.h1>
             <motion.p
               variants={fadeUp}
               custom={2}
               className="font-manrope text-base sm:text-lg text-neutral-500 max-w-[480px] mb-6 leading-relaxed"
             >
-              Des fuites aux installations complètes, Elumina Electrique se présente à l’heure et laisse votre
-              résidence impeccable. Au service des propriétaires et des entreprises partout aux États-Unis.
+              Des pannes aux mises à niveau, Elumina Electrique se présente à l’heure et laisse votre installation sécuritaire.
+              Au service des propriétaires et des entreprises partout au Canada.
             </motion.p>
 
             <motion.div variants={fadeUp} custom={3} className="flex flex-wrap gap-4 mb-6">
@@ -173,7 +173,7 @@ export default function HeroSection() {
             <div className="relative aspect-[4/5] rounded-2xl overflow-hidden">
               <Image
                 src="https://images.unsplash.com/photo-1621905251918-48416bd8575a?w=600&h=750&fit=crop"
-                alt="Plombier professionnel"
+                alt="Électricien professionnel"
                 fill
                 className="object-cover animate-float"
                 priority

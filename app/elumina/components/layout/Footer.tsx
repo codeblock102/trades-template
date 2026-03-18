@@ -22,7 +22,7 @@ export default function Footer() {
               </span>
             </Link>
             <p className="text-neutral-400 text-sm mb-4 max-w-xs leading-relaxed">
-              Des services de plomberie professionnels en qui vous pouvez avoir confiance. Des techniciens agréés et assurés, prêts à vous aider 24/7.
+              Des services électriques professionnels en qui vous pouvez avoir confiance. Des techniciens agréés et assurés, prêts à vous aider 24/7.
             </p>
             <div className="space-y-2 text-sm">
               <p>866-399-2885</p>

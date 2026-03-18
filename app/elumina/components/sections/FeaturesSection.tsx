@@ -5,7 +5,7 @@ import * as LucideIcons from 'lucide-react'
 import SectionLabel from '@/components/ui/SectionLabel'
 import FeatureCard from '../ui/FeatureCard'
 import { staggerContainer, fadeUp } from '@/lib/animations'
-import { FEATURES } from '@/data/content'
+import { FEATURES } from '../../data/electric-content'
 
 export default function FeaturesSection() {
   const ref = useRef(null)
@@ -25,7 +25,7 @@ export default function FeaturesSection() {
             <SectionLabel>(POURQUOI NOUS CHOISIR)</SectionLabel>
           </motion.div>
           <motion.h2 variants={fadeUp} custom={1} className="section-heading mb-4">
-            Un service de plomberie qui mérite votre confiance
+            Un service électrique qui mérite votre confiance
           </motion.h2>
         </motion.div>
 

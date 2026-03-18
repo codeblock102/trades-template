@@ -4,7 +4,7 @@ import { motion, useInView } from 'framer-motion'
 import { Phone, Mail, MapPin, Facebook, Twitter, Linkedin } from 'lucide-react'
 import SectionLabel from '@/components/ui/SectionLabel'
 import { staggerContainer, fadeUp } from '@/lib/animations'
-import { SERVICES } from '@/data/content'
+import { SERVICES } from '../../data/electric-content'
 
 export default function ContactSection() {
   const [formData, setFormData] = useState({
@@ -41,7 +41,7 @@ export default function ContactSection() {
               <SectionLabel>(ENTRER EN CONTACT)</SectionLabel>
             </motion.div>
             <motion.h2 variants={fadeUp} custom={1} className="section-heading mb-8">
-              Résolvons votre problème de plomberie aujourd’hui.
+              Résolvons votre problème électrique aujourd’hui.
             </motion.h2>
 
             <motion.div variants={fadeUp} custom={2} className="space-y-6 mb-8">
@@ -180,7 +180,7 @@ export default function ContactSection() {
                     onChange={(e) => setFormData({ ...formData, message: e.target.value })}
                     rows={5}
                     className="w-full px-4 py-3 rounded-xl border border-brand-border bg-white font-manrope text-sm text-brand-dark placeholder:text-neutral-400 focus:outline-none focus:ring-2 focus:ring-blue-600/40 focus:border-blue-600 transition-all resize-none"
-                    placeholder="Dites-nous de quoi vous avez besoin en plomberie..."
+                    placeholder="Dites-nous de quoi vous avez besoin en électricité..."
                   />
                 </div>
                 <button

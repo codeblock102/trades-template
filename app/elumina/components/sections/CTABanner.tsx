@@ -26,7 +26,7 @@ export default function CTABanner() {
             custom={0}
             className="font-syne text-4xl md:text-5xl font-extrabold text-white mb-4"
           >
-            Prêt pour une plomberie sans stress ?
+            Prêt pour une électricité sans stress ?
           </motion.h2>
           <motion.p
             variants={fadeUp}

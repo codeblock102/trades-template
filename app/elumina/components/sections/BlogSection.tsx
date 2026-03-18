@@ -4,7 +4,7 @@ import { motion, useInView } from 'framer-motion'
 import Link from 'next/link'
 import BlogCard from '../ui/BlogCard'
 import { staggerContainer, fadeUp } from '@/lib/animations'
-import { BLOGS } from '@/data/content'
+import { BLOGS } from '../../data/electric-content'
 
 export default function BlogSection() {
   const ref = useRef(null)

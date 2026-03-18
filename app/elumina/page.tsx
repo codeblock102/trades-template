@@ -1,6 +1,6 @@
 import Navbar from './components/layout/Navbar'
 import HeroSection from './components/sections/HeroSection'
-import SocialProofSection from '@/components/sections/SocialProofSection'
+import SocialProofSection from './components/sections/SocialProofSection'
 import FeaturesSection from './components/sections/FeaturesSection'
 import AboutSection from './components/sections/AboutSection'
 import StatsSection from './components/sections/StatsSection'

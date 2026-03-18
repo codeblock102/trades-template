@@ -3,7 +3,7 @@ import { useRef } from 'react'
 import { motion, useInView } from 'framer-motion'
 import { staggerContainer } from '@/lib/animations'
 import StatItem from '../ui/StatItem'
-import { STATS } from '@/data/content'
+import { STATS } from '../../data/electric-content'
 
 export default function StatsSection() {
   const ref = useRef(null)

@@ -4,7 +4,7 @@ import { motion, useInView } from 'framer-motion'
 import SectionLabel from '@/components/ui/SectionLabel'
 import ServiceCard from '../ui/ServiceCard'
 import { staggerContainer, fadeUp } from '@/lib/animations'
-import { SERVICES } from '@/data/content'
+import { SERVICES } from '../../data/electric-content'
 
 export default function ServicesSection() {
   const ref = useRef(null)
@@ -24,7 +24,7 @@ export default function ServicesSection() {
             <SectionLabel>(CE QUE NOUS FAISONS)</SectionLabel>
           </motion.div>
           <motion.h2 variants={fadeUp} custom={1} className="section-heading mb-4">
-            Tous vos besoins en plomberie, couverts
+            Tous vos besoins en électricité, couverts
           </motion.h2>
         </motion.div>
 
