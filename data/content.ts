@@ -30,7 +30,6 @@ export const FEATURES = [
 ]
 
 export const STATS = [
-  { value: 12000, suffix: '+', label: 'Jobs Completed' },
   { value: 98, suffix: '%', label: 'Customer Satisfaction' },
   { value: 15, suffix: '+', label: 'Years of Experience' },
   { value: 50, suffix: '+', label: 'Cities Served' },
