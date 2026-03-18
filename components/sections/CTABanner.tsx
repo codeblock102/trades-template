@@ -9,7 +9,7 @@ export default function CTABanner() {
   const isInView = useInView(ref, { once: true, margin: '-50px' })
 
   return (
-    <section className="py-24 bg-brand-dark relative overflow-hidden">
+    <section className="py-16 md:py-24 bg-brand-dark relative overflow-hidden">
       {/* Decorative Orb */}
       <div className="absolute w-96 h-96 rounded-full bg-brand-amber/10 blur-3xl -top-48 -right-48" />
       
@@ -33,7 +33,7 @@ export default function CTABanner() {
             custom={1}
             className="font-manrope text-lg text-neutral-400 mb-8 max-w-2xl mx-auto"
           >
-            Join 12,000+ customers who trust Plumbee™ for every job.
+            Join 12,000+ customers who trust AMK Electrique for every job.
           </motion.p>
           <motion.div variants={fadeUp} custom={2} className="flex flex-wrap gap-4 justify-center">
             <Button href="#contact" variant="amber" showArrow>

@@ -32,7 +32,7 @@ export default function StatItem({ value, suffix, label }: StatItemProps) {
 
   return (
     <div ref={ref} className="text-center">
-      <div className="font-syne text-6xl font-extrabold text-white">
+      <div className="font-syne text-4xl sm:text-5xl lg:text-6xl font-extrabold text-white leading-none">
         {count.toLocaleString()}
         <span className="text-brand-amber">{suffix}</span>
       </div>

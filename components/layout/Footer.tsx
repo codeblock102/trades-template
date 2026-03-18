@@ -10,7 +10,7 @@ export default function Footer() {
   }
 
   return (
-    <footer className="bg-brand-dark text-white pt-16 pb-8">
+    <footer className="bg-brand-dark text-white pt-12 pb-6 sm:pt-16 sm:pb-8">
       <div className="container-main">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-12">
           {/* Brand Column */}
@@ -18,7 +18,7 @@ export default function Footer() {
             <Link href="/" className="flex items-center gap-2 mb-4">
               <Wrench className="w-5 h-5 text-brand-amber" />
               <span className="font-syne text-xl font-extrabold">
-                Plumbee<span className="text-brand-amber">™</span>
+                AMK <span className="text-brand-amber">Electrique</span>
               </span>
             </Link>
             <p className="text-neutral-400 text-sm mb-4 max-w-xs leading-relaxed">
@@ -26,7 +26,7 @@ export default function Footer() {
             </p>
             <div className="space-y-2 text-sm">
               <p>866-399-2885</p>
-              <p>help@plumbee.service</p>
+                <p>help@amkelectrique.service</p>
             </div>
             <div className="mt-4">
               <Button href="#contact" variant="amber" className="text-sm">
@@ -112,7 +112,7 @@ export default function Footer() {
         {/* Bottom Bar */}
         <div className="border-t border-neutral-800 pt-8 flex flex-col md:flex-row justify-between items-center gap-4">
           <p className="text-neutral-400 text-sm">
-            Designed with care by Plumbee™ © 2025
+            Designed with care by AMK Electrique © 2025
           </p>
           <button
             onClick={scrollToTop}

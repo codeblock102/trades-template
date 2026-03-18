@@ -15,7 +15,7 @@ const manrope = Manrope({
 })
 
 export const metadata: Metadata = {
-  title: 'Plumbee - Professional Plumbing Services',
+  title: 'AMK Electrique - Professional Plumbing Services',
   description: 'Stress-free plumbing, done right. Licensed professionals available 24/7 for all your plumbing needs.',
 }
 

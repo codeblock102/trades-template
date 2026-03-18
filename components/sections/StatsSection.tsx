@@ -17,7 +17,7 @@ export default function StatsSection() {
           variants={staggerContainer}
           initial="hidden"
           animate={isInView ? 'visible' : 'hidden'}
-          className="grid grid-cols-2 lg:grid-cols-4 gap-8"
+          className="grid grid-cols-2 gap-6 sm:gap-8 lg:grid-cols-4"
         >
           {STATS.map((stat, i) => (
             <StatItem key={i} value={stat.value} suffix={stat.suffix} label={stat.label} />

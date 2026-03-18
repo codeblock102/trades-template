@@ -19,14 +19,14 @@ export default function Navbar() {
   return (
     <nav
       className={`fixed top-0 w-full z-50 transition-all duration-300 ${
-        scrolled ? 'bg-white/95 backdrop-blur-md shadow-sm py-3' : 'bg-transparent py-5'
+        scrolled ? 'bg-white/95 backdrop-blur-md shadow-sm py-2 sm:py-3' : 'bg-transparent py-4 sm:py-5'
       }`}
     >
       <div className="container-main flex items-center justify-between">
         <Link href="/" className="flex items-center gap-2 group">
           <Wrench className="w-5 h-5 text-brand-amber" />
           <span className="font-syne text-2xl font-extrabold text-brand-dark">
-            Plumbee<span className="text-brand-amber">™</span>
+            AMK <span className="text-brand-amber">Electrique</span>
           </span>
         </Link>
 
@@ -81,7 +81,7 @@ export default function Navbar() {
                   <Link href="/" className="flex items-center gap-2" onClick={() => setMobileOpen(false)}>
                     <Wrench className="w-5 h-5 text-brand-amber" />
                     <span className="font-syne text-xl font-extrabold text-brand-dark">
-                      Plumbee<span className="text-brand-amber">™</span>
+                      AMK <span className="text-brand-amber">Electrique</span>
                     </span>
                   </Link>
                   <button onClick={() => setMobileOpen(false)} aria-label="Close menu">

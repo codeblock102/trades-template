@@ -27,7 +27,7 @@ export default function ContactSection() {
   }
 
   return (
-    <section className="py-24 bg-brand-lightBg" id="contact">
+    <section className="py-16 md:py-24 bg-brand-lightBg" id="contact">
       <div className="container-main">
         <div className="grid grid-cols-1 lg:grid-cols-[40%_60%] gap-12">
           {/* Left Column - Contact Info */}
@@ -58,8 +58,8 @@ export default function ContactSection() {
                 <Mail className="w-5 h-5 text-brand-amber mt-1 flex-shrink-0" />
                 <div>
                   <h3 className="font-semibold text-brand-dark mb-1">Email</h3>
-                  <a href="mailto:help@plumbee.service" className="text-neutral-600 hover:text-brand-amber transition-colors">
-                    help@plumbee.service
+                  <a href="mailto:help@amkelectrique.service" className="text-neutral-600 hover:text-brand-amber transition-colors">
+                    help@amkelectrique.service
                   </a>
                 </div>
               </div>

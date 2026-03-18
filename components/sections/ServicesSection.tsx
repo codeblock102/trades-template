@@ -11,7 +11,7 @@ export default function ServicesSection() {
   const isInView = useInView(ref, { once: true, margin: '-80px' })
 
   return (
-    <section className="py-24 bg-white" id="services">
+    <section className="py-16 md:py-24 bg-white" id="services">
       <div className="container-main">
         <motion.div
           ref={ref}

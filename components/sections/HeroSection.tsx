@@ -27,9 +27,9 @@ export default function HeroSection() {
   }
 
   return (
-    <section className="min-h-screen pt-24 pb-12 flex items-center bg-white" id="home">
+    <section className="min-h-screen pt-20 pb-8 sm:pt-24 sm:pb-12 flex items-center bg-white" id="home">
       <div className="container-main">
-        <div className="grid grid-cols-1 lg:grid-cols-[55%_45%] gap-12 items-center">
+        <div className="grid grid-cols-1 lg:grid-cols-[55%_45%] gap-8 lg:gap-12 items-center">
           {/* Left Column */}
           <motion.div
             ref={ref}
@@ -43,20 +43,20 @@ export default function HeroSection() {
             <motion.h1
               variants={fadeUp}
               custom={1}
-              className="font-syne text-5xl md:text-6xl lg:text-7xl font-extrabold text-brand-dark leading-[1.05] tracking-tight mb-6"
+              className="font-syne text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-extrabold text-brand-dark leading-[1.05] tracking-tight mb-4"
             >
               Stress-free plumbing, done right.
             </motion.h1>
             <motion.p
               variants={fadeUp}
               custom={2}
-              className="font-manrope text-lg text-neutral-500 max-w-[480px] mb-8 leading-relaxed"
+              className="font-manrope text-base sm:text-lg text-neutral-500 max-w-[480px] mb-6 leading-relaxed"
             >
-              From leaks to full installs, Plumbee™ shows up on time and leaves your place spotless. Serving
+              From leaks to full installs, AMK Electrique shows up on time and leaves your place spotless. Serving
               homeowners and businesses across the USA.
             </motion.p>
 
-            <motion.div variants={fadeUp} custom={3} className="flex flex-wrap gap-4 mb-8">
+            <motion.div variants={fadeUp} custom={3} className="flex flex-wrap gap-4 mb-6">
               <Button href="#contact" variant="amber" showArrow>
                 Get a Free Quote
               </Button>
@@ -69,13 +69,13 @@ export default function HeroSection() {
             <motion.div
               variants={fadeUp}
               custom={4}
-              className="flex flex-wrap items-center gap-8 mt-8"
+              className="flex flex-wrap items-center gap-6 sm:gap-8 mt-6 sm:mt-8"
             >
               <div className="flex items-center gap-3">
                 <Headphones className="w-5 h-5 text-brand-amber" />
                 <div>
                   <p className="text-xs text-neutral-400">Emergency Call</p>
-                  <p className="font-semibold text-lg text-brand-dark">866-399-2885</p>
+                  <p className="font-semibold text-base sm:text-lg text-brand-dark">866-399-2885</p>
                 </div>
               </div>
               <div className="w-px h-10 bg-brand-border hidden sm:block" />
@@ -83,13 +83,17 @@ export default function HeroSection() {
                 <Clock className="w-5 h-5 text-brand-amber" />
                 <div>
                   <p className="text-xs text-neutral-400">Working Hours</p>
-                  <p className="font-semibold text-lg text-brand-dark">9am – 8pm Daily</p>
+                  <p className="font-semibold text-base sm:text-lg text-brand-dark">9am – 8pm Daily</p>
                 </div>
               </div>
             </motion.div>
 
             {/* Form Section */}
-            <motion.div variants={fadeUp} custom={5} className="mt-12 bg-brand-lightBg rounded-2xl p-6">
+            <motion.div
+              variants={fadeUp}
+              custom={5}
+              className="mt-10 sm:mt-12 bg-brand-lightBg rounded-2xl p-5 sm:p-6"
+            >
               <div className="flex gap-2 mb-4">
                 <button
                   onClick={() => setServiceType('residential')}

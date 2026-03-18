@@ -12,7 +12,7 @@ export default function AboutSection() {
   const isInView = useInView(ref, { once: true, margin: '-80px' })
 
   return (
-    <section className="py-24 bg-brand-lightBg" id="about">
+    <section className="py-16 md:py-24 bg-brand-lightBg" id="about">
       <div className="container-main">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           {/* Image Side */}
