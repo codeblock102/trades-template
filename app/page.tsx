@@ -25,6 +25,14 @@ export default function Home() {
             <div className="font-syne text-xl font-extrabold text-blue-700">Elumina Electrique</div>
             <div className="text-neutral-500 mt-2">Voir la page</div>
           </Link>
+
+          <Link
+            href="/solutions-plus-electrique"
+            className="rounded-2xl border border-neutral-200 bg-white px-6 py-8 hover:border-blue-500/50 hover:shadow-sm transition-shadow"
+          >
+            <div className="font-syne text-xl font-extrabold text-blue-700">Solutions Plus Électrique</div>
+            <div className="text-neutral-500 mt-2">Voir la page</div>
+          </Link>
         </div>
       </div>
     </main>
