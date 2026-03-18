@@ -1,5 +1,5 @@
 export const NAV_LINKS = [
-  { label: 'Accueil', href: '/' },
+  { label: 'Accueil', href: '#home' },
   { label: 'À propos', href: '#about' },
   { label: 'Services', href: '#services' },
   { label: 'Blogue', href: '#blog' },

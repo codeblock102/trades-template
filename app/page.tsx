@@ -1,36 +1,32 @@
-import Navbar from '@/components/layout/Navbar'
-import HeroSection from '@/components/sections/HeroSection'
-import SocialProofSection from '@/components/sections/SocialProofSection'
-import FeaturesSection from '@/components/sections/FeaturesSection'
-import AboutSection from '@/components/sections/AboutSection'
-import StatsSection from '@/components/sections/StatsSection'
-import ServicesSection from '@/components/sections/ServicesSection'
-import CTABanner from '@/components/sections/CTABanner'
-import FAQSection from '@/components/sections/FAQSection'
-import BlogSection from '@/components/sections/BlogSection'
-import ContactSection from '@/components/sections/ContactSection'
-import Footer from '@/components/layout/Footer'
+import Link from 'next/link'
 
 export default function Home() {
   return (
-    <main className="overflow-x-hidden">
-      <a href="#main" className="sr-only focus:not-sr-only focus:absolute focus:top-4 focus:left-4 focus:z-50 focus:px-4 focus:py-2 focus:bg-brand-amber focus:text-brand-dark focus:rounded-xl">
-        Aller au contenu
-      </a>
-      <Navbar />
-      <div id="main">
-        <HeroSection />
-        <SocialProofSection />
-        <FeaturesSection />
-        <AboutSection />
-        <StatsSection />
-        <ServicesSection />
-        <CTABanner />
-        <FAQSection />
-        <BlogSection />
-        <ContactSection />
+    <main className="min-h-screen bg-white text-neutral-900">
+      <div className="container-main pt-24 pb-16">
+        <h1 className="font-syne text-4xl font-extrabold mb-4">Choisissez votre entreprise</h1>
+        <p className="text-neutral-600 max-w-2xl mb-10">
+          Sélectionnez la bannière qui correspond à votre entreprise pour afficher la page complète.
+        </p>
+
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+          <Link
+            href="/bria"
+            className="rounded-2xl border border-neutral-200 bg-white px-6 py-8 hover:border-brand-amber/50 hover:shadow-sm transition-shadow"
+          >
+            <div className="font-syne text-xl font-extrabold">BRIA Electrique Inc</div>
+            <div className="text-neutral-500 mt-2">Voir la page</div>
+          </Link>
+
+          <Link
+            href="/elumina"
+            className="rounded-2xl border border-neutral-200 bg-white px-6 py-8 hover:border-brand-amber/50 hover:shadow-sm transition-shadow"
+          >
+            <div className="font-syne text-xl font-extrabold">Les Entreprises Elumina Electrique</div>
+            <div className="text-neutral-500 mt-2">Voir la page</div>
+          </Link>
+        </div>
       </div>
-      <Footer />
     </main>
   )
 }
